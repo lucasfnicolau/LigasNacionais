@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B6092B2822B89915002DAAE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6092B2722B89915002DAAE8 /* AppDelegate.swift */; };
-		B6092B2A22B89915002DAAE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6092B2922B89915002DAAE8 /* ViewController.swift */; };
 		B6092B2D22B89915002DAAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6092B2B22B89915002DAAE8 /* Main.storyboard */; };
 		B6092B3222B89917002DAAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6092B3022B89917002DAAE8 /* LaunchScreen.storyboard */; };
 		B6092B3A22B89BE9002DAAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6092B3922B89BE9002DAAE8 /* Assets.xcassets */; };
+		B6092B4122B8A3AC002DAAE8 /* LigasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6092B4022B8A3AC002DAAE8 /* LigasTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6092B2422B89915002DAAE8 /* LigasNacionais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LigasNacionais.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6092B2722B89915002DAAE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6092B2922B89915002DAAE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6092B2C22B89915002DAAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6092B3122B89917002DAAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6092B3322B89917002DAAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6092B3922B89BE9002DAAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6092B4022B8A3AC002DAAE8 /* LigasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigasTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,38 @@
 		B6092B2622B89915002DAAE8 /* LigasNacionais */ = {
 			isa = PBXGroup;
 			children = (
-				B6092B2722B89915002DAAE8 /* AppDelegate.swift */,
-				B6092B2922B89915002DAAE8 /* ViewController.swift */,
-				B6092B2B22B89915002DAAE8 /* Main.storyboard */,
-				B6092B3022B89917002DAAE8 /* LaunchScreen.storyboard */,
+				B6092B4422B8A3CF002DAAE8 /* Storyboard */,
+				B6092B4322B8A3C7002DAAE8 /* Supporting Files */,
+				B6092B4222B8A3C1002DAAE8 /* Controller */,
 				B6092B3922B89BE9002DAAE8 /* Assets.xcassets */,
-				B6092B3322B89917002DAAE8 /* Info.plist */,
 			);
 			path = LigasNacionais;
+			sourceTree = "<group>";
+		};
+		B6092B4222B8A3C1002DAAE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6092B4022B8A3AC002DAAE8 /* LigasTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6092B4322B8A3C7002DAAE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6092B3322B89917002DAAE8 /* Info.plist */,
+				B6092B2722B89915002DAAE8 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6092B4422B8A3CF002DAAE8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B6092B2B22B89915002DAAE8 /* Main.storyboard */,
+				B6092B3022B89917002DAAE8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6092B2A22B89915002DAAE8 /* ViewController.swift in Sources */,
+				B6092B4122B8A3AC002DAAE8 /* LigasTableViewController.swift in Sources */,
 				B6092B2822B89915002DAAE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
