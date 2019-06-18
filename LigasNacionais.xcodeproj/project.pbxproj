@@ -58,6 +58,7 @@
 				B6092B4322B8A3C7002DAAE8 /* Supporting Files */,
 				B6092B4222B8A3C1002DAAE8 /* Controller */,
 				B6092B3922B89BE9002DAAE8 /* Assets.xcassets */,
+				B6092B3322B89917002DAAE8 /* Info.plist */,
 			);
 			path = LigasNacionais;
 			sourceTree = "<group>";
@@ -73,7 +74,6 @@
 		B6092B4322B8A3C7002DAAE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B6092B3322B89917002DAAE8 /* Info.plist */,
 				B6092B2722B89915002DAAE8 /* AppDelegate.swift */,
 			);
 			path = "Supporting Files";
