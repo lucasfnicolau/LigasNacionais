@@ -54,6 +54,8 @@
 		B6092B2622B89915002DAAE8 /* LigasNacionais */ = {
 			isa = PBXGroup;
 			children = (
+				B6092B9F22BB24F5002DAAE8 /* View */,
+				B6092B9E22BB24EF002DAAE8 /* Model */,
 				B6092B4422B8A3CF002DAAE8 /* Storyboard */,
 				B6092B4322B8A3C7002DAAE8 /* Supporting Files */,
 				B6092B4222B8A3C1002DAAE8 /* Controller */,
@@ -86,6 +88,20 @@
 				B6092B3022B89917002DAAE8 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B6092B9E22BB24EF002DAAE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6092B9F22BB24F5002DAAE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
